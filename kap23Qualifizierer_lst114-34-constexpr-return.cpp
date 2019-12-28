@@ -1,0 +1,6 @@
+    #include <array> //#
+    constexpr size_t verdoppleWennZuKlein1(size_t wert) {
+       return wert < 100 ? wert*2 : wert; // liefere das Doppelte zur?ck, wenn kleiner 100
+    }
+    std::array<int, verdoppleWennZuKlein1(50)> arr {};
+
